@@ -348,7 +348,7 @@
   dependencies:
     "ansi-colors" "^4.1.1"
 
-"eris@github:RabbitHouseCorp/eris#dev":
+"eris@RabbitHouseCorp/eris#dev":
   "resolved" "git+ssh://git@github.com/RabbitHouseCorp/eris.git#95e6c61afa8ca65ce3b08e1fda26b099f1b12fce"
   "version" "0.15.2-dev"
   dependencies:

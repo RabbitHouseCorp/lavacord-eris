@@ -41,14 +41,14 @@
     "@types/ws": "^7.2.3",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.29.0",
-    "eris": "github:RabbitHouseCorp/eris#dev",
+    "eris": "RabbitHouseCorp/eris#dev",
     "eslint": "^7.32.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "typescript": "^4.3.5"
   },
   "peerDependencies": {
-    "eris": "latest"
+    "eris": "github:RabbitHouseCorp/eris#dev"
   },
   "files": [
     "dist",
