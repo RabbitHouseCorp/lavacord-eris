@@ -348,12 +348,11 @@
   dependencies:
     "ansi-colors" "^4.1.1"
 
-"eris@latest":
-  "integrity" "sha512-IQ3BPW6OjgFoqjdh+irPOa1jFlkotk+WNu2GQQ7QAQfbzQEPZgn+F+hpOxfMUXPHOZMX4sPKLkVDkMHAssBYhw=="
-  "resolved" "https://registry.npmjs.org/eris/-/eris-0.15.1.tgz"
-  "version" "0.15.1"
+"eris@github:RabbitHouseCorp/eris#dev":
+  "resolved" "git+ssh://git@github.com/RabbitHouseCorp/eris.git#95e6c61afa8ca65ce3b08e1fda26b099f1b12fce"
+  "version" "0.15.2-dev"
   dependencies:
-    "ws" "^7.2.1"
+    "ws" "^8.0.0"
   optionalDependencies:
     "opusscript" "^0.0.8"
     "tweetnacl" "^1.0.1"
@@ -1108,10 +1107,15 @@
   "resolved" "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
   "version" "1.0.2"
 
-"ws@^7.2.1", "ws@^7.3.0":
+"ws@^7.3.0":
   "integrity" "sha512-kQ/dHIzuLrS6Je9+uv81ueZomEwH0qVYstcAQ4/Z93K8zeko9gtAbttJWzoC5ukqXY1PpoouV3+VSOqEAFt5wg=="
   "resolved" "https://registry.npmjs.org/ws/-/ws-7.5.3.tgz"
   "version" "7.5.3"
+
+"ws@^8.0.0":
+  "integrity" "sha512-6AcSIXpBlS0QvCVKk+3cWnWElLsA6SzC0lkQ43ciEglgXJXiCWK3/CGFEJ+Ybgp006CMibamAsqOlxE9s4AvYA=="
+  "resolved" "https://registry.npmjs.org/ws/-/ws-8.0.0.tgz"
+  "version" "8.0.0"
 
 "yallist@^4.0.0":
   "integrity" "sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A=="
