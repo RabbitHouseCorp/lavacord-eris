@@ -1,0 +1,61 @@
+{
+  "name": "@lavacord/eris",
+  "version": "0.0.2",
+  "description": "The eris version of the lavacord library",
+  "main": "dist/index",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublishOnly": "yarn compile",
+    "lint": "eslint --fix --ext ts src",
+    "test": "eslint --ext ts src",
+    "compile": "tsc -p .",
+    "watch": "tsc -p . -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavacord/eris.git"
+  },
+  "keywords": [
+    "bot",
+    "music",
+    "discord",
+    "api",
+    "lava",
+    "link",
+    "lavalink",
+    "discord.js",
+    "eris",
+    "lavalink"
+  ],
+  "author": "Jacz",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lavacord/eris/issues"
+  },
+  "homepage": "https://github.com/MrJacz/eris#readme",
+  "dependencies": {
+    "lavacord": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "@types/ws": "^7.2.3",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "eris": "latest",
+    "eslint": "^7.32.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "eris": "latest"
+  },
+  "files": [
+    "dist",
+    "LICENCE"
+  ],
+  "engines": {
+    "node": ">=10",
+    "npm": ">=5"
+  }
+}
